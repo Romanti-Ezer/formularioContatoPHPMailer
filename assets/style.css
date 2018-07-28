@@ -1,0 +1,58 @@
+html, body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+    color: #5BC3EB;
+}
+.title {
+    font-size: 1.8em;
+    text-align: center;
+    color: #5BC3EB;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+form {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+form input, form textarea {
+    border: 1px solid #5BC3EB;
+    padding: 10px 5px;
+    background: transparent;
+    margin-bottom: 2em;
+    width: 100%;
+    color: #5BC3EB;
+    box-sizing: border-box;
+}
+form input::placeholder, form textarea::placeholder {
+    color: #5BC3EB;
+}
+form input[type="submit"] {
+    background: #5BC3EB;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#submitResponse {
+    text-align: center;
+}
+div#gif {
+    height: 40px;
+    text-align: center;
+}
+div#gif img{
+    height: 40px;
+    width: auto;
+    display: none;
+    margin: 0 auto;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    -webkit-text-fill-color: #fff !important;
+    -webkit-box-shadow: 0 0 0 30px rgb(91, 195, 235) inset;
+}
